@@ -1,5 +1,7 @@
 /* home page */
-
+body.container {
+    padding-top: 60px;
+}
 .companyFeatures {
     margin-right: 50px;
 }
@@ -9,7 +11,19 @@ p {
 }
 
 .navnav {
-    height: 60px;
+    height: 80px;
+}
+
+ul {
+    padding: 20px;
+}
+
+ul.no-bullets {
+list-style-type: none;
+}
+
+li {
+    text-decoration: none;
 }
 
 h3 {
@@ -29,6 +43,12 @@ h3 {
 
 .headerFeatures {
     padding-top: 65px;
+    text-align: center;
+}
+
+.footer {
+    background-color: black;
+    color:bisque;
     text-align: center;
 }
 
