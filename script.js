@@ -45,3 +45,6 @@ $.each(myOptions, function(val, text) {
    );
 });
 
+$("button").click(function(){
+   $(".logoHeader").hide();
+ })
