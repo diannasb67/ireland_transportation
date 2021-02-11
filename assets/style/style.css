@@ -44,6 +44,11 @@ p {
     text-align: center;
 }
 
+.hbold {
+    text-align: center;
+    font-weight: bolder;
+}
+
 /* Navbar CSS */
 
 .logoHeader {
