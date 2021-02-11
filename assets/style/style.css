@@ -24,6 +24,7 @@ p {
     line-height: 170%;
 }
 
+
 /* home page css */
 .subtitle {
     width: 100%;
@@ -128,6 +129,12 @@ h3 {
     font-size: 1.5em;
 }
 
+.mission{
+    font-size: 3em;
+    text-align: center;
+    color: #2E86C1;
+}
+
 /* 
 Services CSS */
 .section {
@@ -178,6 +185,13 @@ Services CSS */
     height: auto;
     border-radius: 5%;
 
+}
+
+.services {
+
+    font-size: 2.5em;
+    text-align: left;
+    color: #2E86C1;
 }
 
 .map-responsive{
