@@ -40,13 +40,10 @@ p {
 }
 
 /* Navbar CSS */
-.navnav {
-    height: 100px;
-}
 
 .logoHeader {
     float: left;
-    padding-left: 0;   
+    padding-left: 0;
 }
 
 .navSize {
@@ -60,29 +57,14 @@ ul {
     padding: 20px;
 }
 
-/* .navbar-nav>li {
-    float: left;
-    position: relative;
-} */
-
-/* .navbar-light .navbar-nav .active a::after {
-    border-bottom: 5px solid #5bc0eb;
-    bottom: -10px;
-    content: " ";
-    left: 0;
-    position: absolute;
-    right: 0;
-} */
-
 ul.no-bullets {
     list-style-type: none;
-    
 }
 
-a:hover {
+/* a:hover {
     background-color: rgba(253, 187, 45, 1);
     color: white;
-}
+} */
 
 li {
     display: inline;
@@ -97,7 +79,7 @@ li {
 }
 
 .customer_service {
-    font-size: 25px;
+    font-size: 35px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
     color: black;
@@ -107,11 +89,6 @@ li {
 h3 {
     font-family: 'Montserrat', sans-serif;
 }
-
-.flexNav {
-    display: none;
-}
-
 
 /* footer css */
 .footer {
@@ -132,10 +109,7 @@ h3 {
     padding-bottom: 50px;
 }
 
-.navbar {
-    height: 100%;
-}
- /* 
+/* 
 Services CSS */
 .section {
     width: 650px;
@@ -155,13 +129,6 @@ Services CSS */
     height: 370px;
 }
 
-.p_service {
-    width: 50%;
-}
-
-.wheelchairImg {
-    margin-left: 30%;
-}
 
 .non_emergency {
     clear: left;
@@ -176,9 +143,6 @@ Services CSS */
     margin-right: 10%;
 }
 
-.navbtn {
-
-}
 
 /* Google Fonts */
 /* font-family: 'Montserrat', sans-serif;
@@ -190,10 +154,10 @@ font-family: 'Nunito', sans-serif;
     .logoHeader {
         display: none;
     }
+
     p {
-        display:block;
-        text-align: justify;
-        
+        display: block;
+        text-align: center;
     }
 
     .headerFeatures {
@@ -202,73 +166,78 @@ font-family: 'Nunito', sans-serif;
     }
 
     h3 {
-        text-align: justify;
-    }
-
- 
-}
-
-@media only screen and (max-width: 600px) {
-    .logoHeader {
-        display: none;
-    }
-    .navWeb {
-        display: none;
-    }
-    p {
-        display:block;
-        text-align: justify;
-        
-    }
-
-  
-
-    .headerFeatures {
-        font-weight: bold;
         text-align: center;
     }
 
-    h3 {
-        text-align: justify;
-    }
-}
-
-@media only screen and (max-width: 767px) {
-  .logoHeader {
-      display: none;
-  }
-  p {
-    display:block;
-    text-align: justify;
-    
-}
-
-.headerFeatures {
-    font-weight: bold;
-    text-align: center;
-}
-
-h3 {
-    text-align: justify;
-}
-}
-
-@media only screen and (max-width: 900px) {
-    .logoHeader {
-        display: none;
-    }
-    p {
-        display:block;
-        text-align: justify;
-        
-    }
-
-    .headerFeatures {
-        font-weight: bold;
+    .header1 {
         text-align: center;
     }
 
-    h3 {
-        text-align: justify;
+
+    @media only screen and (max-width: 600px) {
+        .logoHeader {
+            display: none;
+        }
+
+        .navWeb {
+            display: none;
+        }
+
+        p {
+            display: block;
+            text-align: justify;
+        }
+
+        .headerFeatures {
+            font-weight: bold;
+            text-align: center;
+        }
+
+        h3 {
+            text-align: justify;
+        }
+
+
+        @media only screen and (max-width: 767px) {
+            .logoHeader {
+                display: none;
+            }
+
+            p {
+                display: block;
+                text-align: center;
+
+            }
+
+            .headerFeatures {
+                font-weight: bold;
+                text-align: center;
+            }
+
+            h3 {
+                text-align: center;
+            }
+
+
+            @media only screen and (max-width: 900px) {
+                .logoHeader {
+                    display: none;
+                }
+
+                p {
+                    display: block;
+                    text-align: center;
+                }
+
+                .headerFeatures {
+                    font-weight: bold;
+                    text-align: center;
+                }
+
+                h3 {
+                    text-align: center;
+                }
+            }
+        }
     }
 }
