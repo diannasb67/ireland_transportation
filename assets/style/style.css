@@ -1,10 +1,15 @@
 /* general */
+main {
+    width: 80%;
+    margin-left: 10%;
+}
+
 body.container {
     padding-top: 60px;
 }
 
 .container {
-    padding: 60px;
+    padding: 50px;
 }
 
 img {
@@ -14,11 +19,10 @@ img {
 
 p {
     display: block;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.45em;
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
     line-height: 170%;
 }
-
 
 /* home page css */
 .subtitle {
@@ -30,12 +34,12 @@ p {
 
 .companyFeatures {
     margin-right: 50px;
-    padding-top: 50px;
-    padding-bottom: 75px;
+    padding-top: 10px;
+    padding-bottom: 15px;
 }
 
 .headerFeatures {
-    padding-top: 65px;
+    /* padding-top: 65px; */
     text-align: center;
 }
 
@@ -70,6 +74,7 @@ li {
     /* display: inline; */
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
+    font-size: 1.5em;
 }
 
 
@@ -86,6 +91,7 @@ li {
     float: right;
 }
 
+
 h3 {
     font-family: 'Montserrat', sans-serif;
 }
@@ -95,6 +101,14 @@ h3 {
     background-color: black;
     color: bisque;
     text-align: center;
+}
+
+
+.customer_service_footer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    font-weight: bolder;
+    text-decoration: none;
 }
 
 /* About CSS */
@@ -107,6 +121,11 @@ h3 {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 50px;
+}
+
+.about {
+    line-height: 160%;
+    font-size: 1.5em;
 }
 
 /* 
@@ -129,6 +148,16 @@ Services CSS */
     height: 370px;
 }
 
+.button1 {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
 
 .non_emergency {
     clear: left;
@@ -143,12 +172,41 @@ Services CSS */
     margin-right: 10%;
 }
 
+.servicesImg {
+    float: right;
+    max-width: 100%;
+    height: auto;
+    border-radius: 5%;
 
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    padding-bottom: 5%;
+}
+
+.clearfix {
+    overflow: auto;
+}
 /* Google Fonts */
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto', sans-serif; 
 font-family: 'Nunito', sans-serif;
 */
+
+
+/* Media queries */
 
 @media only screen and (max-width: 300px) {
     .logoHeader {
@@ -188,9 +246,20 @@ font-family: 'Nunito', sans-serif;
     .header1 {
         text-align: left;
     }
+    .servicesImg {
+        float: right;
+        max-width: 100%;
+        height: auto;
+        border-radius: 5%;
+        padding: 20%;
+    }
 
+    .blockquote {
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
 
-    @media only screen and (max-width: 600px) {
+    @media (min-width: 768px) {
         .logoHeader {
             display: none;
         }
@@ -216,11 +285,6 @@ font-family: 'Nunito', sans-serif;
             text-align: center;
         }
 
-        h3 {
-            text-align: center;
-            line-height: normal;
-        }
-
         .header1 {
             text-align: left;
         }
@@ -229,10 +293,67 @@ font-family: 'Nunito', sans-serif;
             padding-top: 25px;
             padding-bottom: 35px;
         }
+        .servicesImg {
+            float: right;
+            max-width: 100%;
+            height: auto;
+            border-radius: 5%;
+            padding: 20%;
+        }
+
+        .blockquote {
+            padding-top: 20%;
+            padding-bottom: 20%;
+        }
+        
+
+    @media (min-width: 576px) {
+        .logoHeader {
+            display: none;
+        }
+
+        .line {
+            display: none;
+        }
+
+       
+        p {
+            display: inline;
+           text-align: center;
+        }
+        
+        .headerFeatures {
+            font-weight: bold;
+            text-align: center;
+            padding-top: 15px;
+        }
+
+        .headerFeatures {
+            font-weight: bold;
+            text-align: center;
+        }
+
+  
+        .companyFeatures {
+            margin-right: 25px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+        .servicesImg {
+            float: right;
+            max-width: 100%;
+            height: auto;
+            border-radius: 5%;
+            padding: 20%;
+        }
+
+        .blockquote {
+            padding-top: 20%;
+            padding-bottom: 20%;
+        }
    
-
-
         @media only screen and (max-width: 767px) {
+           
             .logoHeader {
                 display: none;
             }
@@ -266,8 +387,21 @@ font-family: 'Nunito', sans-serif;
                 padding-bottom: 35px;
             }
 
+            .servicesImg {
+                float: right;
+                max-width: 100%;
+                height: auto;
+                border-radius: 5%;
+                padding: 20%;
+            }
 
-            @media only screen and (max-width: 900px) {
+            .blockquote {
+                padding-top: 20%;
+                padding-bottom: 20%;
+            }
+
+
+            @media (min-width: 992px) {
 
                 .container {
                     padding: 30px;
@@ -294,8 +428,21 @@ font-family: 'Nunito', sans-serif;
                 h3 {
                     text-align: center;
                 }
+                .servicesImg {
+                    float: right;
+                    max-width: 100%;
+                    height: auto;
+                    border-radius: 5%;
+                    padding: 20%;
+                }
+    
+                .blockquote {
+                    padding-top: 20%;
+                    padding-bottom: 20%;
+                }
 
             }
         }
     }
+}
 }
