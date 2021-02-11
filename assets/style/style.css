@@ -67,7 +67,7 @@ ul.no-bullets {
 } */
 
 li {
-    display: inline;
+    /* display: inline; */
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
 }
