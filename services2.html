@@ -3,10 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Stylesheet -->
     <link rel="stylesheet" href="./assets/style/style.css">
 
     <!-- jQuery Scripts -->
@@ -33,18 +32,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&display=swap"
         rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
 
-    <title>About Us</title>
+    <title>Services</title>
 
 </head>
+
 
 <body>
     <!-- Header banner -->
     <div class="headerBanner" height="200px"><a href="tel:4013270763" class="nav-link customer_service">Contact: (401)
-            327-0763</a>
-    </div>
+            327-0763</a></div>
 
     <!-- mobile nav flex -->
     <nav class="navbar navbar-inverse">
@@ -74,36 +71,67 @@
 
 
     <div class="cover">
-        <img src="assets/images/aboutCoverii.jpg" alt="non-medical transportation" class="img-fluid" height="300px"
-            width=" 1900px" alt="Responsive image">
+        <img src="assets/images/servicesCover.jpg" alt="non-medical transportation" class="img-fluid"
+            alt="Responsive image">
     </div>
+    <main>
+        <div class="container">
+            <h1 class="display-1">Services</h1>
+            <br>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-sm">
-                <h1 class="heading1 mission">Mission Statement:  Leave No One Behind</h1>
-                
+            <!-- Non-emergency Medical Transportation -->
+            <div class="clearfix">
+                <img src="assets/images/map.png" class="servicesImg" alt="non-emergency-transportation">
+                <h2 class="services">Non-Emergency Medical Transportation</h2>
+               
+                    <p>We provide Ambulatory (Passenger) Transportation
+                        within 20 miles of Lynn, MA. If your city is not on the list below, contact us anyway to make
+                        special
+                        arrangements!</p>
+
+                    <p>List of Towns :</p>
+                    <select id='myTown'>
+                        <p>
+                            <option>Search Town</option>
+                        </p>
+                    </select>
+            
+            </div>
+            <br>
+
+            <!-- Multi-Passenger -->
+            <div class="clearfix">
+                <img src="assets/images/life_stages.jpg" class="servicesImg" alt="routes">
+                <h2 class="services">Multi-Passenger</h2>
+             
+                    <p>We operate minivans in addition to passenger vehicles for groups or passengers with children.</p>
+          
+            </div>
+
+           
+            <br>
+
+            <!-- Routes -->
+            <div class="clearfix">
+                <img src="assets/images/vehiclesImg400px.jpg" class="servicesImg" alt="multi-passenger">
+                <h2 class="services">Many of our current routes include:</h2>
+               
+                    <div>
+                        <ul>
+                            <li>Regular Doctor’s Appointments</li>
+                            <li>Hospital Discharges</li>
+                            <li>Adult Day Care Centers</li>
+                            <li>Eye and Dental Visits</li>
+                            <li>Methadone Clinics</li>
+                        </ul>
+                    </div>
+              
             </div>
         </div>
-        <h1 class="heading1">About Us</h1>
-        <div class="row">
-            <div class="col">
-                <p class="about">Ireland Transportation is who people search for when in need of transportation.
-                    With over 20 years of combined experience safely transporting Massachusetts’ residents, we are
-                    committed to your safety and comfort.
-                    In fact, many of our clients will only travel with us because they feel completely at home in our
-                    clean, privately owned, and fully insured vehicles.
-                    Whether you prefer a quiet ride, listening to the music of your choice, or having pleasant
-                    conversations, our drivers are committed to making sure you get to your destination on time.
-                    And don’t worry because if you booked your return with us, we will always be there to bring you back
-                    home, no matter how late it is.
-                </p>
+        <div class="map-responsive">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2942.865016115985!2d-70.94380778427553!3d42.47315947917945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e36cc53c1096eb%3A0x7d6b077f55982ba4!2s10-10A%20Adams%20St%2C%20Lynn%2C%20MA%2001902!5e0!3m2!1sen!2sus!4v1613064431280!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
             </div>
-        </div>
-    
-
-    </div>
-
+    </main>
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
@@ -120,7 +148,12 @@
         </div>
     </footer>
     <script src="script.js"></script>
-
+    <script>
+        $('#myTabs a').click(function (e) {
+            e.preventDefault()
+            $(this).tab('show')
+        })
+    </script>
 
 </body>
 
