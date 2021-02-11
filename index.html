@@ -8,6 +8,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <link rel="stylesheet" href="./assets/style/style.css">
+
+
+  <!-- jQuery Scripts -->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+    integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
@@ -26,27 +33,38 @@
 
 
 <body>
+
+  <!-- Header banner -->
+  <div class="headerBanner" height="200px"><a href="tel:4013270763" class="nav-link customer_service">Contact: (401)
+      327-0763</a></div>
+
+
+  </div>
   <!-- Navbar -->
-  <div class="navnav">
-  <ul class="nav justify-content-center">
-    <li class="nav-item">
-      <a class="nav-link active" href="index.html">Home</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="services.html">Services</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="about.html">About</a>
-    </li>
-  </ul>
-</div>
+  <nav class="navnav navbar-light navColor">
+    <div class="logoHeight">
+      <img src="assets/images/logo.jpg" height="100px" width="250px" class="logoHeader">
+    </div>
+    <ul class="nav justify-content-center nav-fill">
+      <li class="nav-item navSize">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item navSize">
+        <a class="nav-link" href="services.html">Services</a>
+      </li>
+      <li class="nav-item navSize">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+    </ul>
+  </nav>
+  <!-- Navbar end -->
+
   <div class="cover">
-    <img src="assets/images/homeCover.jpg" alt="non-medical transportation" class="img-fluid"
-      alt="Responsive image">
+    <img src="assets/images/homeCoveri.jpg" alt="non-medical transportation" class="img-fluid" alt="Responsive image">
 
   </div>
 
-<!-- Navbar end -->
+
 
   <div class="subtitle">
     <div class="container">
@@ -88,27 +106,28 @@
 
     </div>
   </div>
-    <!-- Footer -->
-    <footer class="footer">
-      <div class="container">
-          <div class="row">
-              <div class="col l6 s12">
-                  <h2 class="white-text">Ireland Transportation</h2>
-                  <ul class="no-bullets">
-                    <li>10 Adams Street, Lynn, MA 01902</li>
-                    <li>Hours of Operation: Mon-Fri: 5:00AM-5:00PM Sat-Sun: 5:00AM-2:00PM</li>
-                  </ul>
-              </div>
-          </div>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h2 class="white-text">Ireland Transportation</h2>
+          <ul class="no-bullets">
+            <li class="white-text">10 Adams Street, Lynn, MA 01902</li>
+            <li class="white-text">Hours of Operation: Mon-Fri: 5:00AM-5:00PM Sat-Sun: 5:00AM-2:00PM</li>
+          </ul>
+        </div>
       </div>
-
+    </div>
   </footer>
-<script>
-$('#myTabs a').click(function (e) {
-  e.preventDefault()
-  $(this).tab('show')
-})
-</script>
+
+
+  <script>
+    $('#myTabs a').click(function (e) {
+      e.preventDefault()
+      $(this).tab('show')
+    })
+  </script>
 </body>
 
 </html>

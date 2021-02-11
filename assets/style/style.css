@@ -2,29 +2,96 @@
 body.container {
     padding-top: 60px;
 }
+
+.container {
+    padding: 60px;
+}
+
 .companyFeatures {
     margin-right: 50px;
 }
 
+.img {
+      width:100%;
+      height: auto;
+}
+
 p {
     font-family: 'Roboto', sans-serif;
+    font-size: 1.45em;
+    line-height: 170%;
 }
 
+.logoHeader {
+    float: left;
+    padding-left: 0;
+}
+
+
+/* Navbar CSS */
 .navnav {
-    height: 80px;
+    height: 100px;
 }
 
+.navSize {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: black;   
+}
 ul {
     padding: 20px;
 }
 
+.navbar-nav > li {
+    float: left;
+    position: relative;
+  }
+
+.navbar-light .navbar-nav .active a::after {
+    border-bottom: 5px solid #5bc0eb;
+    bottom: -10px;
+    content: " ";
+    left: 0;
+    position: absolute;
+    right: 0;
+  }
+
 ul.no-bullets {
 list-style-type: none;
+
 }
+
+a:hover{
+    background-color:  rgba(253, 187, 45, 1) ;
+    color: white;
+  }
 
 li {
     text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
 }
+
+.hoverNav {
+    background-color: black;
+}
+
+.headerBanner {
+    background-color: rgba(253, 187, 45, 1);
+    height: 50px;
+}
+
+.customer_service {
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    color: black;
+    float: right;
+}
+
+/* .navColor {
+    background-color: black;
+} */
 
 h3 {
     font-family: 'Montserrat', sans-serif;
@@ -52,7 +119,31 @@ h3 {
     text-align: center;
 }
 
+/* About CSS */
+
+.servicesContent {
+    margin: 100px;
+}
+
+.heading1 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+/* 
+Services CSS */
+.section{
+    width: 650px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-right: 10px;
+}
+
+
+
 
 /* Google Fonts */
 /* font-family: 'Montserrat', sans-serif;
-font-family: 'Roboto', sans-serif; */
+font-family: 'Roboto', sans-serif; 
+font-family: 'Nunito', sans-serif;
+*/

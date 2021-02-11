@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./assets/style/style.css">
+
+    <!-- jQuery Scripts -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-git.js"></script>
+
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- Bootstrap Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&display=swap"
+        rel="stylesheet">
+
+    <title>Services</title>
+
+</head>
+
+
+<body>
+    <!-- Header banner -->
+    <div class="headerBanner" height="200px"><a href="tel:4013270763" class="nav-link customer_service">Contact: (401)
+            327-0763</a></div>
+   
+  <!-- Navbar -->
+  <nav class="navnav navbar-light navColor">
+    <div class="logoHeight">
+      <img src="assets/images/logo.jpg" height="100px" width="250px" class="logoHeader">
+    </div>
+    <ul class="nav justify-content-center nav-fill">
+      <li class="nav-item navSize">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item navSize">
+        <a class="nav-link" href="services.html">Services</a>
+      </li>
+      <li class="nav-item navSize">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+    </ul>
+  </nav>
+  <!-- Navbar end -->
+
+  <div class="cover">
+    <img src="assets/images/servicesCover.jpg" alt="non-medical transportation" class="img-fluid" alt="Responsive image">
+
+  </div>
+    
+    <div class="container">
+        <h1 class="heading1">Services Provided</h1>
+        <div class="row">
+            <div class="col">
+                <h2>Non-Emergency Medical Transportation</h2>
+                <p>We provide Ambulatory (Passenger) Transportation within 20 miles of Lynn, MA.
+                    If your city is not on the list below, contact us anyway to make special arrangements!</p>
+                <p>List of Towns :</p>
+                <select id='myTown'>
+                    <option>Search Town</option>
+                </select>
+            </div>
+            <div class="col">
+                <img src="assets/images/map.png" src="Ireland Transportation Location Map">
+            </div>
+        </div>
+
+     
+
+
+        <div class="row section">
+            <div class="col-sm">
+                <h3>Multi-Passenger</h3>
+                <p>We operate minivans in addition to passenger vehicles for groups or passengers with children.</p>
+            </div>
+        </div>
+
+        <div class="row section">
+            <div class="col-sm">
+                <h3>Many of our current routes include:</h3>
+                <ul>
+                    <li>Regular Doctor’s Appointments </li>
+                    <li>Hospital Discharges</li>
+                    <li>Adult Day Care Centers</li>
+                    <li>Eye and Dental Visits</li>
+                    <li>Methadone Clinics</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h2 class="white-text">Ireland Transportation</h2>
+                    <ul class="no-bullets">
+                        <li class="white-text">10 Adams Street, Lynn, MA 01902</li>
+                        <li class="white-text">Hours of Operation: Mon-Fri: 5:00AM-5:00PM Sat-Sun: 5:00AM-2:00PM</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+        $('#myTabs a').click(function (e) {
+            e.preventDefault()
+            $(this).tab('show')
+        })
+    </script>
+
+</body>
+
+</html>
