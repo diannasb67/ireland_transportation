@@ -133,7 +133,13 @@
       </div>
     </div>
   </footer>
-
+  <script src="script.js"></script>
+  <script>
+      $('#myTabs a').click(function (e) {
+          e.preventDefault()
+          $(this).tab('show')
+      })
+  </script>
 
 </body>
 
