@@ -1,5 +1,4 @@
 var myOptions = {
-   val0 : 'Search Town',
    val1 : 'Allston',
    val2 : 'Beverly',
    val3 : 'Boston',
