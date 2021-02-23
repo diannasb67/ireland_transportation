@@ -24,7 +24,19 @@ p {
     line-height: 170%;
 }
 
+.subtitle h2 {
+    color: #004a90;
+    font-weight: bold;
+    text-align: left;
+}
 
+.subtitle h3 {
+    text-align: left;
+}
+
+.subtitle p {
+    text-align: left;
+}
 /* home page css */
 .subtitle {
     width: 100%;
@@ -32,6 +44,7 @@ p {
     background: rgb(34, 193, 195);
     background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
 }
+
 
 .companyFeatures {
     margin-right: 50px;
@@ -258,7 +271,7 @@ font-family: 'Nunito', sans-serif;
     }
 
     h1 {
-        align-content: center
+        text-align: center;
     }
 
     h2 {
@@ -311,6 +324,13 @@ font-family: 'Nunito', sans-serif;
         width: 90%;
         text-align: left;
     }
+
+    .headerBanner {
+        height: 90px;
+    }
+
+
+
 }
 
 @media (max-width: 576px) {
@@ -377,6 +397,10 @@ font-family: 'Nunito', sans-serif;
         font-size: 1.2em;
     }
 
+    h1 {
+        text-align: center;
+    }
+
     h2 {
         font-size: 2em;
     }
@@ -393,6 +417,9 @@ font-family: 'Nunito', sans-serif;
         width: 90%;
         text-align: left;
     }
+ .headerBanner {
+        height: 70px;
+    } 
 
 }
 
@@ -479,6 +506,8 @@ font-family: 'Nunito', sans-serif;
         width: 90%;
         text-align: left;
     }
+
+   
     
 }
 
