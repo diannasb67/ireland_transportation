@@ -9,13 +9,15 @@ body.container {
 }
 
 .container {
-    padding: 3ls0px;
+    padding: 30px;
 }
 
 img {
     max-width: 100%;
     height: auto;
 }
+
+
 
 p {
     display: block;
@@ -65,30 +67,58 @@ p {
 
 /* Navbar CSS */
 
-.logoHeader {
-    float: left;
-    padding-left: 0;
+
+nav {
+    background-color:black;
+    height: 100%;
 }
 
-.navSize {
+.clearfix {
+    overflow: auto;
+}
+
+nav ul {
+    float: right;
+}
+
+.mainNav {
+    /* margin: 0; */
+    padding: 0;
+    margin-right: 20%;
+    list-style: none;
+    width: 175px;
+}
+.mainNav a {
+    color: #000;
+    font-size: 25px;
+    text-transform: uppercase;
     text-decoration: none;
-    font-size: 30px;
-    font-family: 'Montserrat', sans-serif;
-    color: black;
-}
-
-ul {
-    padding: 20px;
-}
-
-ul.no-bullets {
-    list-style-type: none;
-}
-
-/* a:hover {
-    background-color: rgba(253, 187, 45, 1);
+    padding: 7px 5px 7px 30px;
+    display: block;
+    background-color: black;
+    background-position: 0 2px;
     color: white;
-} */
+}
+
+.mainNav a:hover {
+    font-weight: bold;
+    background-color: rgba(253, 187, 45, 1);
+    background-position: 3px 50%;
+    text-decoration: none;
+}
+
+.home .homeLink,
+.about .aboutLink,
+.services .servicesLink {
+    border-bottom: 3px solid #004a90;
+    background-position: 97% 100%;
+    padding-right: 15px;
+    padding-left: 30px;
+    font-weight: bold;
+}
+
+
+
 
 li {
     /* display: inline; */
@@ -102,6 +132,7 @@ li {
     background-color: rgba(253, 187, 45, 1);
     height: 70px;
     padding-top: 10px;
+    padding-right: 15px;
 }
 
 .customer_service {
@@ -129,11 +160,6 @@ h3 {
     padding-bottom: 50px;
 }
 
-.about {
-    line-height: 160%;
-    font-size: 1.5em;
-    padding-bottom: 10px;
-}
 
 .mission {
     font-size: 3em;
@@ -248,10 +274,11 @@ font-family: 'Nunito', sans-serif;
 
 /* Media queries */
 
-@media only screen and (max-width: 300px) {
-    .logoHeader {
-        display: none;
-    }
+@media only screen and (min-width: 250px) {
+   .navbar img {
+       width: 100px;
+       height: 50px;
+   }
 
     .customer_service {
         font-size: 20px;
@@ -302,15 +329,15 @@ font-family: 'Nunito', sans-serif;
         font-size: 1.5em;
     }
 
-    .hbold {
+     .hbold {
         text-align: center;
         font-weight: bolder;
         font-size: 2.5em;
-    }
+    } 
 
-    p {
+     p {
         font-size: 1.2em;
-    }
+    } 
 
     li {
         font-size: 1em;
@@ -328,15 +355,12 @@ font-family: 'Nunito', sans-serif;
     .headerBanner {
         height: 90px;
     }
-
-
-
 }
 
 @media (max-width: 576px) {
-    .logoHeader {
-        display: none;
-    }
+   .logoHeader {
+       display: none;
+    } 
 
     .line {
         display: none;
@@ -424,9 +448,9 @@ font-family: 'Nunito', sans-serif;
 }
 
 @media (max-width: 768px) {
-    .logoHeader {
+    /* .logoHeader {
         display: none;
-    }
+    } */
 
     .line {
         display: none;
@@ -517,9 +541,9 @@ font-family: 'Nunito', sans-serif;
         padding: 20px;
     }
 
-    .logoHeader {
+    /* .logoHeader {
         display: none;
-    }
+    } */
 
     .line {
         display: none;
