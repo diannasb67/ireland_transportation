@@ -9,7 +9,7 @@ body.container {
 }
 
 .container {
-    padding: 50px;
+    padding: 3ls0px;
 }
 
 img {
@@ -104,6 +104,21 @@ h3 {
     font-family: 'Montserrat', sans-serif;
 }
 
+/* footer css */
+.footer {
+    background-color: black;
+    color: bisque;
+    text-align: center;
+}
+
+
+.customer_service_footer {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
 /* About CSS */
 
 .servicesContent {
@@ -119,10 +134,9 @@ h3 {
 .about {
     line-height: 160%;
     font-size: 1.5em;
-    padding-bottom: 10px;
 }
 
-.mission {
+.mission{
     font-size: 3em;
     text-align: center;
     color: #2E86C1;
@@ -149,15 +163,14 @@ Services CSS */
 }
 
 .button1 {
-    background-color: #4CAF50;
-    /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 
 .non_emergency {
@@ -190,42 +203,25 @@ Services CSS */
     width: 40%;
 }
 
-.map-responsive {
-    overflow: hidden;
-    padding-bottom: 56.25%;
-    position: relative;
-    height: 0;
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
 
 }
-
-.map-responsive iframe {
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    position: absolute;
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
     padding-bottom: 5%;
 }
 
 .clearfix {
     overflow: auto;
 }
-
-/* footer css */
-.footer {
-    background-color: black;
-    color: bisque;
-    text-align: center;
-}
-
-
-.customer_service_footer {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2em;
-    font-weight: bolder;
-    text-decoration: none;
-}
-
 /* Google Fonts */
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto', sans-serif; 
@@ -252,189 +248,24 @@ font-family: 'Nunito', sans-serif;
         display: none;
     }
 
+
+
     .headerFeatures {
         font-weight: bold;
         text-align: center;
-    }
-
-    h1 {
-        text-align: center;
-    }
-
-    h2 {
-        font-size: 2em;
     }
 
     h3 {
         text-align: center;
     }
 
-    .header1 {
-        text-align: left;
-    }
-
-    .servicesImg {
-        /* float: right; */
-        max-width: 100%;
-        height: auto;
-        border-radius: 5%;
-        padding: 1%;
-    }
-
-    .pServices {
-        width: 80%;
-    }
-
-    .services {
-        font-size: 1.5em;
-    }
-
-    .hbold {
-        text-align: center;
-        font-weight: bolder;
-        font-size: 2.5em;
-    }
-
-    p {
-        font-size: 1.2em;
-    }
-
-    li {
-        font-size: 1em;
-    }
-
-    .customer_service_footer {
-        font-size: 1.5em;
-    }
-
-    .pServices {
-        width: 90%;
-        text-align: left;
-    }
-}
-
-@media (max-width: 576px) {
-    .logoHeader {
-        display: none;
-    }
-
-    .line {
-        display: none;
-    }
-
-
-    p {
-        display: inline;
-        text-align: center;
-        font-size: 1.2em;
-    }
-
-    .headerFeatures {
-        font-weight: bold;
-        text-align: center;
-        padding-top: 15px;
-    }
-
-    .headerFeatures {
-        font-weight: bold;
-        text-align: center;
-    }
-
-
-    .companyFeatures {
-        margin-right: 25px;
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
-
-    .servicesImg {
-        float: right;
-        max-width: 100%;
-        height: auto;
-        border-radius: 5%;
-        padding: 20%;
-    }
-
-  
-    .pServices {
-        width: 100%;
-    }
-
-    .services {
-        font-size: 1.5em;
-    }
-
-    .hbold {
-        text-align: center;
-        font-weight: bolder;
-        font-size: 2.5em;
-    }
-
-
     h1 {
-        text-align: center;
-    }
-
-    h2 {
-        text-align: center;
-        font-size: 2em;
-    }
-
-    h3 {
-        text-align: center;
-    }
-
-    li {
-        font-size: 1em;
-    }
-
-    .customer_service_footer {
-        font-size: 1.5em;
-    }
-
-    .pServices {
-        width: 90%;
-        text-align: left;
-    }
-
+    align-content: center
 }
-
-@media (max-width: 768px) {
-    .logoHeader {
-        display: none;
-    }
-
-    .line {
-        display: none;
-    }
-
-
-    p {
-        display: inline;
-        text-align: center;
-    }
-
-    .headerFeatures {
-        font-weight: bold;
-        text-align: center;
-        padding-top: 15px;
-    }
-
-    .headerFeatures {
-        font-weight: bold;
-        text-align: center;
-    }
 
     .header1 {
         text-align: left;
     }
-
-    .companyFeatures {
-        margin-right: 25px;
-        padding-top: 25px;
-        padding-bottom: 35px;
-    }
-
     .servicesImg {
         float: right;
         max-width: 100%;
@@ -447,85 +278,206 @@ font-family: 'Nunito', sans-serif;
         padding-top: 20%;
         padding-bottom: 20%;
     }
-
+    
     .pServices {
         width: 80%;
-    }
-
-    .services {
-        font-size: 1.5em;
-    }
-
-    .hbold {
-        text-align: center;
-        font-weight: bolder;
-        font-size: 2.5em;
-    }
-
-    p {
-        font-size: 1.2em;
-    }
-
-    h2 {
-        font-size: 2em;
-    }
-
-    li {
-        font-size: 1em;
-    }
-
-    .customer_service_footer {
-        font-size: 1.5em;
-    }
-
-    .pServices {
-        width: 90%;
-        text-align: left;
-    }
-    
 }
 
-@media (max-width: 992px) {
+    @media (min-width: 768px) {
+        .logoHeader {
+            display: none;
+        }
 
-    .container {
-        padding: 20px;
-    }
+        .line {
+            display: none;
+        }
 
-    .logoHeader {
-        display: none;
-    }
+       
+        p {
+            display: inline;
+           text-align: center;
+        }
+        
+        .headerFeatures {
+            font-weight: bold;
+            text-align: center;
+            padding-top: 15px;
+        }
 
-    .line {
-        display: none;
-    }
+        .headerFeatures {
+            font-weight: bold;
+            text-align: center;
+        }
 
-    p {
-        display: block;
-        text-align: center;
-    }
+        .header1 {
+            text-align: left;
+        }
+        .companyFeatures {
+            margin-right: 25px;
+            padding-top: 25px;
+            padding-bottom: 35px;
+        }
+        .servicesImg {
+            float: right;
+            max-width: 100%;
+            height: auto;
+            border-radius: 5%;
+            padding: 20%;
+        }
 
-    .headerFeatures {
-        font-weight: bold;
-        text-align: center;
-        padding-top: 45px;
-    }
+        .blockquote {
+            padding-top: 20%;
+            padding-bottom: 20%;
+        }
+        
+            .pServices {
+        width: 80%;
+}
 
-    h3 {
-        text-align: center;
-    }
+    @media (min-width: 576px) {
+        .logoHeader {
+            display: none;
+        }
 
-    .servicesImg {
-        float: right;
-        max-width: 100%;
-        height: auto;
-        border-radius: 5%;
-        padding: 15%;
-    }
+        .line {
+            display: none;
+        }
 
-    .pServices {
-        width: 90%;
-        text-align: left;
-    }
+       
+        p {
+            display: inline;
+           text-align: center;
+        }
+        
+        .headerFeatures {
+            font-weight: bold;
+            text-align: center;
+            padding-top: 15px;
+        }
+
+        .headerFeatures {
+            font-weight: bold;
+            text-align: center;
+        }
+
+  
+        .companyFeatures {
+            margin-right: 25px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+        }
+        .servicesImg {
+            float: right;
+            max-width: 100%;
+            height: auto;
+            border-radius: 5%;
+            padding: 20%;
+        }
+
+        .blockquote {
+            padding-top: 20%;
+            padding-bottom: 20%;
+        }
+        
+        .pServices {
+             width: 100%;
+}
+   
+        @media only screen and (max-width: 767px) {
+           
+            .logoHeader {
+                display: none;
+            }
+            .line {
+                display: none;
+            }
+
+            p {
+                display: block;
+                text-align: center;
+            }
+
+            .headerFeatures {
+                font-weight: bold;
+                text-align: center;
+                padding-top: 45px;
+            }
+
+            .headerFeatures {
+                font-weight: bold;
+                text-align: center;
+            }
+
+            h3 {
+                text-align: center;
+            }
+
+            .companyFeatures {
+                margin-right: 25px;
+                padding-top: 25px;
+                padding-bottom: 35px;
+            }
+
+            .servicesImg {
+                float: right;
+                max-width: 100%;
+                height: auto;
+                border-radius: 5%;
+                padding: 20%;
+            }
+
+            .blockquote {
+                padding-top: 20%;
+                padding-bottom: 20%;
+            }
+            
+            .pServices {
+                width: 100%;
+            }
+
+
+            @media (min-width: 992px) {
+
+                .container {
+                    padding: 20px;
+                }
+                .logoHeader {
+                    display: none;
+                }
+
+                .line {
+                    display: none;
+                }
+
+                p {
+                    display: block;
+                    text-align: center;
+                }
+
+                .headerFeatures {
+                    font-weight: bold;
+                    text-align: center;
+                    padding-top: 45px;
+                }
+
+                h3 {
+                    text-align: center;
+                }
+                .servicesImg {
+                    float: right;
+                    max-width: 100%;
+                    height: auto;
+                    border-radius: 5%;
+                    padding: 20%;
+                }
     
+                .blockquote {
+                    padding-top: 20%;
+                    padding-bottom: 20%;
+                }
 
+            }
+        }
+    }
+}
 }
