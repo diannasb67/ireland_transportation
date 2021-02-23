@@ -17,8 +17,6 @@ img {
     height: auto;
 }
 
-
-
 p {
     display: block;
     font-size: 1.5em;
@@ -39,6 +37,7 @@ p {
 .subtitle p {
     text-align: left;
 }
+
 /* home page css */
 .subtitle {
     width: 100%;
@@ -46,7 +45,6 @@ p {
     background: rgb(34, 193, 195);
     background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
 }
-
 
 .companyFeatures {
     margin-right: 50px;
@@ -66,7 +64,6 @@ p {
 }
 
 /* Navbar CSS */
-
 
 nav {
     background-color:black;
@@ -108,16 +105,14 @@ nav ul {
 }
 
 .home .homeLink,
-.about .aboutLink,
-.services .servicesLink {
+.about1 .aboutLink,
+.services1 .servicesLink {
     border-bottom: 3px solid #004a90;
     background-position: 97% 100%;
     padding-right: 15px;
     padding-left: 30px;
     font-weight: bold;
 }
-
-
 
 
 li {
@@ -159,6 +154,7 @@ h3 {
     padding-top: 20px;
     padding-bottom: 50px;
 }
+
 
 
 .mission {
