@@ -9,7 +9,7 @@ body.container {
 }
 
 .container {
-    padding: 50px;
+    padding: 3ls0px;
 }
 
 img {
@@ -47,6 +47,7 @@ p {
 .hbold {
     text-align: center;
     font-weight: bolder;
+    font-size: 4em;
 }
 
 /* Navbar CSS */
@@ -87,6 +88,7 @@ li {
 .headerBanner {
     background-color: rgba(253, 187, 45, 1);
     height: 70px;
+    padding-top: 10px;
 }
 
 .customer_service {
@@ -189,14 +191,16 @@ Services CSS */
     max-width: 100%;
     height: auto;
     border-radius: 5%;
-
 }
 
 .services {
-
     font-size: 2.5em;
     text-align: left;
     color: #2E86C1;
+}
+
+.pServices {
+    width: 40%;
 }
 
 .map-responsive{
@@ -244,14 +248,7 @@ font-family: 'Nunito', sans-serif;
         display: none;
     }
 
-    /* .cover {
-        text-align: center;
-    } */
 
-    p {
-        display: inline;
-       text-align: justify;
-    }
 
     .headerFeatures {
         font-weight: bold;
@@ -261,6 +258,10 @@ font-family: 'Nunito', sans-serif;
     h3 {
         text-align: center;
     }
+
+    h1 {
+    align-content: center
+}
 
     .header1 {
         text-align: left;
@@ -277,6 +278,10 @@ font-family: 'Nunito', sans-serif;
         padding-top: 20%;
         padding-bottom: 20%;
     }
+    
+    .pServices {
+        width: 80%;
+}
 
     @media (min-width: 768px) {
         .logoHeader {
@@ -325,6 +330,9 @@ font-family: 'Nunito', sans-serif;
             padding-bottom: 20%;
         }
         
+            .pServices {
+        width: 80%;
+}
 
     @media (min-width: 576px) {
         .logoHeader {
@@ -370,6 +378,10 @@ font-family: 'Nunito', sans-serif;
             padding-top: 20%;
             padding-bottom: 20%;
         }
+        
+        .pServices {
+             width: 100%;
+}
    
         @media only screen and (max-width: 767px) {
            
@@ -418,12 +430,16 @@ font-family: 'Nunito', sans-serif;
                 padding-top: 20%;
                 padding-bottom: 20%;
             }
+            
+            .pServices {
+                width: 100%;
+            }
 
 
             @media (min-width: 992px) {
 
                 .container {
-                    padding: 30px;
+                    padding: 20px;
                 }
                 .logoHeader {
                     display: none;
