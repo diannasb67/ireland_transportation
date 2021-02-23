@@ -258,7 +258,7 @@ font-family: 'Nunito', sans-serif;
     }
 
     h1 {
-        align-content: center
+        text-align: center;
     }
 
     h2 {
@@ -326,6 +326,7 @@ font-family: 'Nunito', sans-serif;
     p {
         display: inline;
         text-align: center;
+        font-size: 1.2em;
     }
 
     .headerFeatures {
@@ -354,11 +355,7 @@ font-family: 'Nunito', sans-serif;
         padding: 20%;
     }
 
-    .blockquote {
-        padding-top: 20%;
-        padding-bottom: 20%;
-    }
-
+  
     .pServices {
         width: 100%;
     }
@@ -373,12 +370,18 @@ font-family: 'Nunito', sans-serif;
         font-size: 2.5em;
     }
 
-    p {
-        font-size: 1.2em;
+
+    h1 {
+        text-align: center;
     }
 
     h2 {
+        text-align: center;
         font-size: 2em;
+    }
+
+    h3 {
+        text-align: center;
     }
 
     li {
