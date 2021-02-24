@@ -303,6 +303,12 @@ font-family: 'Nunito', sans-serif;
     list-style: none;
     width: 175px;
 }
+
+.about {
+    font-size: 1em;
+    text-align: justify;
+    padding: 15px;
+}
  
   } 
 
@@ -404,6 +410,7 @@ font-family: 'Nunito', sans-serif;
     .about {
         font-size: 1em;
         text-align: justify;
+        padding: 15px;
     }
 
     ul {
@@ -520,6 +527,14 @@ font-family: 'Nunito', sans-serif;
         width: 90%;
         text-align: left;
     }
+
+    
+.about {
+    font-size: 1em;
+    text-align: justify;
+    padding: 15px;
+}
+ 
 
    
     
