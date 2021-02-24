@@ -20,7 +20,7 @@ body.container {
 .headerBanner {
     background-color: rgba(253, 187, 45, 1);
     height: 60px;
-    padding-top: 20px 5px 10px 5px;
+    padding-top: 5px 5px 5px 5px;
 }
 
 /* Navbar CSS */
@@ -261,7 +261,7 @@ font-family: 'Nunito', sans-serif;
 
     .services {
         font-size: 1.5em;
-        text-align: justify;
+        text-align: left;
     }
 
      .hbold {
@@ -295,15 +295,18 @@ font-family: 'Nunito', sans-serif;
     padding-left: 30px;
     font-weight: bold;
 }
- 
 
+nav {
+    align-content: center;
+}
+ 
   } 
 
  @media (max-width: 576px) {
 
     p {
         display: inline;
-        text-align: center;
+        text-align: left;
     }
 
     .headerFeatures {
@@ -338,6 +341,7 @@ font-family: 'Nunito', sans-serif;
 
     .services {
         font-size: 1.5em;
+        text-align: left;
     }
 
     .hbold {
@@ -416,6 +420,7 @@ font-family: 'Nunito', sans-serif;
     font-weight: bold;
 }
 
+
 }
 
 @media (max-width: 768px) {
@@ -473,6 +478,8 @@ font-family: 'Nunito', sans-serif;
 
     .services {
         font-size: 1.5em;
+        text-align: left;
+
     }
 
     .hbold {
