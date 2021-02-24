@@ -296,8 +296,12 @@ font-family: 'Nunito', sans-serif;
     font-weight: bold;
 }
 
-nav {
-    align-content: center;
+.mainNav {
+    /* margin: 0; */
+    padding: 0;
+    /* margin-right: 20%; */
+    list-style: none;
+    width: 175px;
 }
  
   } 
@@ -418,6 +422,14 @@ nav {
     padding-right: 15px;
     padding-left: 30px;
     font-weight: bold;
+}
+
+.mainNav {
+    /* margin: 0; */
+    padding: 0;
+    /* margin-right: 20%; */
+    list-style: none;
+    width: 175px;
 }
 
 
