@@ -4,6 +4,11 @@ main {
     margin-left: 10%;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 body.container {
     padding-top: 60px;
 }
@@ -12,55 +17,10 @@ body.container {
     padding: 30px;
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-p {
-    display: block;
-    font-size: 1.5em;
-    font-family: 'Montserrat', sans-serif;
-    line-height: 170%;
-}
-
-.subtitle h2 {
-    color: #004a90;
-    font-weight: bold;
-    text-align: left;
-}
-
-.subtitle h3 {
-    text-align: left;
-}
-
-.subtitle p {
-    text-align: left;
-}
-
-/* home page css */
-.subtitle {
-    width: 100%;
-    height: 100%;
-    background: rgb(34, 193, 195);
-    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
-}
-
-.companyFeatures {
-    margin-right: 50px;
-    padding-top: 10px;
-    padding-bottom: 15px;
-}
-
-.headerFeatures {
-    /* padding-top: 65px; */
-    text-align: center;
-}
-
-.hbold {
-    text-align: center;
-    font-weight: bolder;
-    font-size: 4em;
+.headerBanner {
+    background-color: rgba(253, 187, 45, 1);
+    height: 60px;
+    padding-top: 20px 5px 10px 5px;
 }
 
 /* Navbar CSS */
@@ -113,35 +73,63 @@ nav ul {
     padding-left: 30px;
     font-weight: bold;
 }
+ 
+/* End Nav */
 
+
+
+/* Home css */
 
 li {
-    /* display: inline; */
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5em;
 }
 
-
-.headerBanner {
-    background-color: rgba(253, 187, 45, 1);
-    height: 70px;
-    padding-top: 10px;
-    padding-right: 15px;
-}
-
-.customer_service {
-    font-size: 25px;
+p {
+    display: block;
+    font-size: 1.5em;
     font-family: 'Montserrat', sans-serif;
-    font-weight: bolder;
-    color: black;
-    float: right;
+    line-height: 170%;
 }
 
+.subtitle h2 {
+    color: #004a90;
+    font-weight: bold;
+    text-align: left;
+}
+
+.subtitle h3 {
+    text-align: left;
+}
+
+.subtitle p {
+    text-align: left;
+}
+
+.subtitle {
+    width: 100%;
+    height: 100%;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+}
+
+.companyFeatures {
+    margin-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.hbold {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 4em;
+}
 
 h3 {
     font-family: 'Montserrat', sans-serif;
 }
+
 
 /* About CSS */
 
@@ -155,8 +143,6 @@ h3 {
     padding-bottom: 50px;
 }
 
-
-
 .mission {
     font-size: 3em;
     text-align: center;
@@ -165,64 +151,23 @@ h3 {
 
 /* 
 Services CSS */
-.section {
-    width: 650px;
-    padding-bottom: 50px;
-    margin-top: 50px;
-    margin-right: 10px;
-}
-
-.serviceImg {
-    float: right;
-    border-radius: 8px;
-}
-
-.service_content {
-    margin-top: 5%;
-    margin-left: 23%;
-    height: 370px;
-}
-
-.button1 {
-    background-color: #4CAF50;
-    /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-}
-
-.non_emergency {
-    clear: left;
-}
-
-.serviceContent {
-    padding: 10px;
-    width: 90%;
-}
-
-.non_emergency_container {
-    margin-right: 10%;
-}
 
 .servicesImg {
     float: right;
     max-width: 100%;
+    width: 600px;
     height: auto;
     border-radius: 5%;
 }
 
 .services {
-    font-size: 2.5em;
+    font-size: 2.75em;
     text-align: left;
     color: #2E86C1;
 }
 
-.pServices {
-    width: 40%;
+.serviceDiv {
+    padding-bottom: 25px;
 }
 
 .map-responsive {
@@ -284,45 +229,39 @@ font-family: 'Nunito', sans-serif;
         float: right;
     }
 
-    .line {
-        display: none;
-    }
-
-    .headerFeatures {
-        font-weight: bold;
-        text-align: center;
-    }
-
     h1 {
         text-align: center;
     }
 
-    h2 {
+     h2 {
         font-size: 2em;
-    }
+        text-align: center;
+    } 
 
     h3 {
         text-align: center;
     }
 
-    .header1 {
-        text-align: left;
-    }
-
-    .servicesImg {
-        /* float: right; */
+   .servicesImg {
+        float: right;
         max-width: 100%;
         height: auto;
         border-radius: 5%;
-        padding: 1%;
-    }
+        padding: 2%;
+    } 
 
-    .pServices {
-        width: 80%;
-    }
+     .pServices {
+        width: 90%;
+        text-align: justify;
+    } 
+
+    .servicesDiv {
+        align-content: center;
+    } 
 
     .services {
         font-size: 1.5em;
+        text-align: justify;
     }
 
      .hbold {
@@ -343,25 +282,24 @@ font-family: 'Nunito', sans-serif;
         font-size: 1.5em;
     }
 
-    .pServices {
-        width: 90%;
-        text-align: left;
-    }
-
     .headerBanner {
         height: 90px;
     }
+
+    .home .homeLink,
+    .about1 .aboutLink,
+    .services1 .servicesLink {
+    border-bottom: 2px solid #004a90;
+    background-position: 97% 100%;
+    padding-right: 15px;
+    padding-left: 30px;
+    font-weight: bold;
 }
+ 
 
-@media (max-width: 576px) {
-   .logoHeader {
-       display: none;
-    } 
+  } 
 
-    .line {
-        display: none;
-    }
-
+ @media (max-width: 576px) {
 
     p {
         display: inline;
@@ -394,11 +332,6 @@ font-family: 'Nunito', sans-serif;
         padding: 20%;
     }
 
-    .blockquote {
-        padding-top: 20%;
-        padding-bottom: 20%;
-    }
-
     .pServices {
         width: 100%;
     }
@@ -411,18 +344,23 @@ font-family: 'Nunito', sans-serif;
         text-align: center;
         font-weight: bolder;
         font-size: 2.5em;
+        padding-bottom: 10px;
     }
 
     p {
-        font-size: 1.2em;
+        font-size: 1em;
+        text-align: justify;
     }
 
+   
     h1 {
         text-align: center;
     }
 
     h2 {
         font-size: 2em;
+        padding: 0;
+    
     }
 
     li {
@@ -437,9 +375,46 @@ font-family: 'Nunito', sans-serif;
         width: 90%;
         text-align: left;
     }
- .headerBanner {
+   .headerBanner {
         height: 70px;
-    } 
+        padding-top: 10px;
+
+    }  
+
+    .heading1 {
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+    
+    .mission {
+        font-size: 1.5em;
+        text-align: center;
+        color: #2E86C1;
+    }
+
+    .about {
+        font-size: 1em;
+        text-align: justify;
+    }
+
+    ul {
+        text-align: center;
+    }
+
+    .customer_service {
+        text-align: center;
+    }
+
+    .home .homeLink,
+    .about1 .aboutLink,
+    .services1 .servicesLink {
+    border-bottom: 3px solid #004a90;
+    background-position: 97% 100%;
+    padding-right: 15px;
+    padding-left: 30px;
+    font-weight: bold;
+}
 
 }
 
