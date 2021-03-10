@@ -148,7 +148,15 @@ h3 {
     text-align: center;
     color: #2E86C1;
 }
+.about {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 20%;
+    text-align: justify;
+}
 
+.aboutContainer {
+    width: 30%;
+}
 /* 
 Services CSS */
 
